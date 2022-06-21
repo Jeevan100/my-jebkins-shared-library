@@ -1,3 +1,5 @@
-  def call(){
-  echo "Executing the Scaning method....."
+#!/usr/bin/env groovy
+
+def call(String name = 'human') {
+echo "Hello, ${name}."
 }
